@@ -1,0 +1,160 @@
+@import "bootstrap";
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  height: 100%;
+  background-color: #F3EBEB
+}
+
+.container {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px #888888;
+}
+
+.jumbotron {
+  background-image: url("../img/background_big.png");
+  margin-bottom: 0;
+}
+
+.logo {
+  margin-bottom: 50px;
+
+  img {
+    width: 464px;
+    height: 130px;
+  }
+}
+
+.subtitle-container {
+  height: 300px;
+  font-weight: bold;
+  max-width: 1000px;
+  border: 5px solid white;
+  border-radius: 3px;
+  position: relative;
+  margin: auto;
+
+  .subtitle-background {
+    background: white;
+    opacity: .2;
+    height: 290px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .subtitle-text {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    z-index: 2;
+
+    h1 {
+      color: #ffffff;
+      font-size: 55px;
+      margin-top: 55px;
+      font-weight: lighter;
+      line-height: 85px;
+      text-shadow: 2px 2px #B70000;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .subtitle-container {
+    height: 200px;
+
+    .subtitle-background {
+      height: 190px;
+    }
+    .subtitle-text {
+      h1 {
+        font-size: 35px;
+        margin-top: 35px;
+        line-height:60px;
+        width: 700px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo img {
+    width: 200px;
+    height: 57px;
+  }
+
+  .subtitle-container {
+    height: 180px;
+
+    .subtitle-background {
+      height: 170px;
+    }
+    .subtitle-text {
+      h1 {
+        font-size: 28px;
+        padding-top: 30px;
+        width: 315px;
+        line-height: 40px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.ovals {
+  img {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+}
+
+.background {
+  max-width: 930px;
+  margin: 0 auto;
+  h2 {
+    padding-top: 45px;
+    padding-bottom: 22px;
+    font-size: 51px;
+    text-shadow: 2px 2px #cccccc;
+  }
+
+  p {
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Muli', sans-serif;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+  a {
+    color: #A20E13;
+  }
+}
+
+.pictures {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  .picture {
+    margin-bottom: 40px;
+  }
+}
+
+.twitter-link {
+  color: #A20E13;
+  font-family: 'Muli', sans-serif;
+  font-size: 19px;
+}
+
+.footer {
+  width: 100%;
+  background-image: url("../img/footer.png");
+  padding-bottom: 40px;
+  h3 {
+    color: white;
+    padding-top: 40px;
+    padding-right: 40px;
+    display: inline-block;
+  }
+}
