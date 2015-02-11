@@ -74,6 +74,7 @@ body {
         margin-top: 35px;
         line-height:60px;
         width: 700px;
+        padding: 30px;
       }
     }
   }
@@ -94,7 +95,7 @@ body {
     .subtitle-text {
       h1 {
         font-size: 28px;
-        padding-top: 30px;
+        padding-top: 9px;
         width: 315px;
         line-height: 40px;
         margin: 0 auto;
@@ -135,9 +136,13 @@ body {
 .pictures {
   margin-top: 40px;
   margin-bottom: 40px;
+  padding-top: 30px;
 
   .picture {
     margin-bottom: 40px;
+    img {
+      padding-bottom: 20px;
+    }
   }
 }
 
@@ -156,5 +161,6 @@ body {
     padding-top: 40px;
     padding-right: 40px;
     display: inline-block;
+    margin-left: 10px;
   }
 }
