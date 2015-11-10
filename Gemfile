@@ -18,3 +18,6 @@ gem "bootstrap-sass", :require => false
 gem "rack-contrib"
 
 gem "puma"
+
+gem "middleman-favicon-maker", "~> 3.7"
+
