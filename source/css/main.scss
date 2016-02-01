@@ -18,11 +18,11 @@ body {
 }
 
 .logo {
-  margin-bottom: 50px;
+  margin-top: -27px;
+
 
   img {
-    width: 464px;
-    height: 130px;
+    width: 200px;
   }
 
   p {
@@ -31,18 +31,22 @@ body {
   }
 }
 
+#nav {
+  background-color: #000000;
+  height: 100px;
+  width: 100%;
+  opacity: .2;
+  position: absolute;
+}
+
 .subtitle-container {
-  height: 300px;
+  height: 400px;
   font-weight: bold;
   max-width: 1000px;
-  border: 5px solid white;
-  border-radius: 3px;
   position: relative;
   margin: auto;
 
   .subtitle-background {
-    background: white;
-    opacity: .2;
     height: 290px;
     width: 100%;
     z-index: 1;
@@ -58,7 +62,7 @@ body {
     h1 {
       color: #ffffff;
       font-size: 55px;
-      margin-top: 55px;
+      margin-top: 100px;
       font-weight: lighter;
       line-height: 85px;
       text-shadow: 2px 2px #B70000;
@@ -68,7 +72,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .subtitle-container {
-    height: 200px;
+    height: 300px;
 
     .subtitle-background {
       height: 190px;
@@ -76,7 +80,7 @@ body {
     .subtitle-text {
       h1 {
         font-size: 35px;
-        margin-top: 35px;
+        margin-top: 80px;
         line-height:60px;
         width: 700px;
         padding-right: 30px;
@@ -89,20 +93,41 @@ body {
   .logo img {
     width: 200px;
     height: 57px;
+    margin-top: 18px;
+  }
+  .learn-more {
+    height: 220px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #E02323;
+    color: #ffffff;
+  }
+  .link {
+    .container {
+      background-color: #B70000;
+      margin-left: -15px;
+      margin-right: -15px;
+      height: 50px;
+      padding-top: 12px;
+      a {
+        color: #ffffff;
+        font-size: 20px;
+      }
+    }
   }
 
   .subtitle-container {
-    height: 180px;
+    height: 360px;
 
     .subtitle-background {
       height: 170px;
     }
     .subtitle-text {
       h1 {
-        font-size: 28px;
-        padding-top: 9px;
-        width: 315px;
-        line-height: 40px;
+        font-size: 40px;
+        padding-top: 60px;
+        width: 100%;
+        line-height: 48px;
         margin: 0 auto;
       }
     }
@@ -147,8 +172,8 @@ body {
   }
   h4 {
     padding-top: 15px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 10px;
+    margin-right: 1px;
     line-height: 1.5;
 //    font-size: 28px;
   }
