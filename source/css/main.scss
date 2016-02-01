@@ -40,7 +40,7 @@ body {
 }
 
 .subtitle-container {
-  height: 400px;
+  height: 420px;
   font-weight: bold;
   max-width: 1000px;
   position: relative;
@@ -95,8 +95,16 @@ body {
     height: 57px;
     margin-top: 18px;
   }
+
+  .ovals {
+    margin-top: -30px;
+    img {
+      padding-top: 130px;
+    }
+  }
+
   .learn-more {
-    height: 220px;
+    height: 240px;
     margin-left: -15px;
     margin-right: -15px;
     background-color: #E02323;
@@ -138,6 +146,7 @@ body {
   img {
     padding-right: 70px;
     padding-left: 70px;
+    margin-top: -120px;
   }
 }
 
@@ -147,8 +156,7 @@ body {
   h2 {
     padding-top: 45px;
     padding-bottom: 22px;
-    font-size: 51px;
-    text-shadow: 2px 2px #cccccc;
+    font-size: 36px;
   }
 
   p {
