@@ -40,7 +40,7 @@ body {
 }
 
 .subtitle-container {
-  height: 420px;
+  height: 300px;
   font-weight: bold;
   max-width: 1000px;
   position: relative;
@@ -101,6 +101,10 @@ body {
     img {
       padding-top: 130px;
     }
+
+    a {
+      display: inline-block;
+    }
   }
 
   .learn-more {
@@ -146,7 +150,6 @@ body {
   img {
     padding-right: 70px;
     padding-left: 70px;
-    margin-top: -120px;
   }
 }
 
