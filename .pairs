@@ -1,0 +1,8 @@
+pairs:
+    kd: Kinsey Ann Durham; kinsey
+    el: Emma Lawler; emma
+    ah: Aubrey Howell; Aubrey
+email:
+     prefix: pair
+     domain: kubmo.org
+     no_solo_prefix: true

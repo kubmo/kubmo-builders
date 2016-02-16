@@ -19,5 +19,7 @@ gem "rack-contrib"
 
 gem "puma"
 
+gem 'pivotal_git_scripts', require: false
+
 gem "middleman-favicon-maker", "~> 3.7"
 

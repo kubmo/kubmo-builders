@@ -96,6 +96,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.4)
       activesupport (>= 3.1)
+    pivotal_git_scripts (1.4.0)
     puma (2.9.1)
       rack (>= 1.1, < 2.0)
     rack (1.6.0)
@@ -139,7 +140,11 @@ DEPENDENCIES
   middleman (~> 3.3.7)
   middleman-favicon-maker (~> 3.7)
   middleman-livereload (~> 3.1.0)
+  pivotal_git_scripts
   puma
   rack-contrib
   tzinfo-data
   wdm (~> 0.1.0)
+
+BUNDLED WITH
+   1.10.6
